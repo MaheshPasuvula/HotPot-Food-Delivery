@@ -1,0 +1,2826 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-7.23572.1 (7b75981c)",
+        "semanticVersion": "4.8.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 88,
+                  "endLine": 83,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, Restaurant>, Task<Restaurant>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, Restaurant>, Task<Restaurant?>>' in 'IReturnsResult<IRepository<int, string, Restaurant>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, Restaurant>, Restaurant?>(IReturns<IRepository<int, string, Restaurant>, Task<Restaurant?>> mock, Restaurant? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 13,
+                  "endLine": 83,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 27,
+                  "endLine": 127,
+                  "endColumn": 93
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 73,
+                  "endLine": 130,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, Order>, Task<Order>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, Order>, Task<Order?>>' in 'IReturnsResult<IRepository<int, string, Order>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, Order>, Order?>(IReturns<IRepository<int, string, Order>, Task<Order?>> mock, Order? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 13,
+                  "endLine": 130,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 91,
+                  "endLine": 157,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, Restaurant>, Task<Restaurant>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, Restaurant>, Task<Restaurant?>>' in 'IReturnsResult<IRepository<int, string, Restaurant>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, Restaurant>, Restaurant?>(IReturns<IRepository<int, string, Restaurant>, Task<Restaurant?>> mock, Restaurant? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 13,
+                  "endLine": 157,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 27,
+                  "endLine": 153,
+                  "endColumn": 99
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_orderRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 55,
+                  "endLine": 18,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 55,
+                  "endLine": 18,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_deliveryPartnerRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 65,
+                  "endLine": 19,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 65,
+                  "endLine": 19,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_userRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 54,
+                  "endLine": 20,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 54,
+                  "endLine": 20,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_tokenServicesMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 38,
+                  "endLine": 21,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 38,
+                  "endLine": 21,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_loggerMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 56,
+                  "endLine": 22,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 56,
+                  "endLine": 22,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_deliveryPartnerServices' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 41,
+                  "endLine": 23,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 41,
+                  "endLine": 23,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 79,
+                  "endLine": 190,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, City>, Task<City>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, City>, Task<City?>>' in 'IReturnsResult<IRepository<int, string, City>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, City>, City?>(IReturns<IRepository<int, string, City>, Task<City?>> mock, City? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 13,
+                  "endLine": 190,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 27,
+                  "endLine": 186,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 27,
+                  "endLine": 197,
+                  "endColumn": 100
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 83,
+                  "endLine": 246,
+                  "endColumn": 93
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, User>, Task<User>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, User>, Task<User?>>' in 'IReturnsResult<IRepository<int, string, User>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, User>, User?>(IReturns<IRepository<int, string, User>, Task<User?>> mock, User? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 13,
+                  "endLine": 246,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockRestaurantRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 60,
+                  "endLine": 19,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 60,
+                  "endLine": 19,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockCityRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 54,
+                  "endLine": 20,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 54,
+                  "endLine": 20,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockMenuRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 54,
+                  "endLine": 21,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 54,
+                  "endLine": 21,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockPaymentRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 57,
+                  "endLine": 22,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 57,
+                  "endLine": 22,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockOrderRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 55,
+                  "endLine": 23,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 55,
+                  "endLine": 23,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockUserRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 54,
+                  "endLine": 24,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 54,
+                  "endLine": 24,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockRestOwnerRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 65,
+                  "endLine": 25,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 65,
+                  "endLine": 25,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockSpecialityRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 70,
+                  "endLine": 26,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 70,
+                  "endLine": 26,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockReviewRepo' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 64,
+                  "endLine": 27,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 64,
+                  "endLine": 27,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockTokenServices' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 38,
+                  "endLine": 28,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 38,
+                  "endLine": 28,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mockLogger' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 55,
+                  "endLine": 29,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 55,
+                  "endLine": 29,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_restaurantUserServices' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 40,
+                  "endLine": 31,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 40,
+                  "endLine": 31,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 592,
+                  "startColumn": 93,
+                  "endLine": 592,
+                  "endColumn": 113
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, CustomerReview>, Task<CustomerReview>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, CustomerReview>, Task<CustomerReview?>>' in 'IReturnsResult<IRepository<int, string, CustomerReview>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, CustomerReview>, CustomerReview?>(IReturns<IRepository<int, string, CustomerReview>, Task<CustomerReview?>> mock, CustomerReview? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 592,
+                  "startColumn": 13,
+                  "endLine": 592,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 619,
+                  "startColumn": 101,
+                  "endLine": 619,
+                  "endColumn": 121
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, CustomerReview>, Task<CustomerReview>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, CustomerReview>, Task<CustomerReview?>>' in 'IReturnsResult<IRepository<int, string, CustomerReview>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, CustomerReview>, CustomerReview?>(IReturns<IRepository<int, string, CustomerReview>, Task<CustomerReview?>> mock, CustomerReview? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 619,
+                  "startColumn": 13,
+                  "endLine": 619,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 646,
+                  "startColumn": 85,
+                  "endLine": 646,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IRepository<int, string, CustomerReview>, Task<CustomerReview>>' cannot be used for parameter 'mock' of type 'IReturns<IRepository<int, string, CustomerReview>, Task<CustomerReview?>>' in 'IReturnsResult<IRepository<int, string, CustomerReview>> ReturnsExtensions.ReturnsAsync<IRepository<int, string, CustomerReview>, CustomerReview?>(IReturns<IRepository<int, string, CustomerReview>, Task<CustomerReview?>> mock, CustomerReview? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 646,
+                  "startColumn": 13,
+                  "endLine": 646,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_customerServices' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 34,
+                  "endLine": 19,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 34,
+                  "endLine": 19,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_custRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 58,
+                  "endLine": 20,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 58,
+                  "endLine": 20,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_userRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 54,
+                  "endLine": 21,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 54,
+                  "endLine": 21,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_menuRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 54,
+                  "endLine": 22,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 54,
+                  "endLine": 22,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_cartRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 54,
+                  "endLine": 23,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 54,
+                  "endLine": 23,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_orderRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 55,
+                  "endLine": 24,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 55,
+                  "endLine": 24,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_orderItemRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 59,
+                  "endLine": 25,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 59,
+                  "endLine": 25,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_paymentRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 57,
+                  "endLine": 26,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 57,
+                  "endLine": 26,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_restaurantRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 60,
+                  "endLine": 27,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 60,
+                  "endLine": 27,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_cityRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 54,
+                  "endLine": 28,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 54,
+                  "endLine": 28,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_custAddressRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 65,
+                  "endLine": 29,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 65,
+                  "endLine": 29,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_custReviewRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 64,
+                  "endLine": 30,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 64,
+                  "endLine": 30,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_deliveryPartnerRepoMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 65,
+                  "endLine": 31,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 65,
+                  "endLine": 31,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_tokenServicesMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 38,
+                  "endLine": 32,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 38,
+                  "endLine": 32,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_loggerMock' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 49,
+                  "endLine": 33,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 49,
+                  "endLine": 33,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 13,
+                  "endLine": 76,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 13,
+                  "endLine": 93,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 13,
+                  "endLine": 75,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2016",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Null), instead of the classic model, Assert.Null(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 13,
+                  "endLine": 104,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "Null"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2019",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.IsNotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 13,
+                  "endLine": 123,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "IsNotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 13,
+                  "endLine": 108,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2019",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.IsNotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 13,
+                  "endLine": 149,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "IsNotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 13,
+                  "endLine": 122,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 13,
+                  "endLine": 122,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/DeliveryPartnerServicesTests.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 13,
+                  "endLine": 141,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2019",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.IsNotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 13,
+                  "endLine": 182,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "IsNotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 13,
+                  "endLine": 172,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 13,
+                  "endLine": 198,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 13,
+                  "endLine": 216,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2016",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Null), instead of the classic model, Assert.Null(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 13,
+                  "endLine": 267,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "Null"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 13,
+                  "endLine": 266,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 13,
+                  "endLine": 267,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 287,
+                  "startColumn": 13,
+                  "endLine": 287,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 290,
+                  "startColumn": 13,
+                  "endLine": 290,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 13,
+                  "endLine": 316,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/RestaurantUserTests.cs",
+                "region": {
+                  "startLine": 332,
+                  "startColumn": 13,
+                  "endLine": 332,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 315,
+                  "startColumn": 13,
+                  "endLine": 315,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 416,
+                  "startColumn": 13,
+                  "endLine": 416,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 13,
+                  "endLine": 442,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 460,
+                  "startColumn": 13,
+                  "endLine": 460,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 475,
+                  "startColumn": 13,
+                  "endLine": 475,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 493,
+                  "startColumn": 13,
+                  "endLine": 493,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 509,
+                  "startColumn": 13,
+                  "endLine": 509,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 523,
+                  "startColumn": 13,
+                  "endLine": 523,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 13,
+                  "endLine": 540,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 555,
+                  "startColumn": 13,
+                  "endLine": 555,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2018",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 13,
+                  "endLine": 569,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "NotNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 584,
+                  "startColumn": 13,
+                  "endLine": 584,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 611,
+                  "startColumn": 13,
+                  "endLine": 611,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 638,
+                  "startColumn": 13,
+                  "endLine": 638,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 669,
+                  "startColumn": 13,
+                  "endLine": 669,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 690,
+                  "startColumn": 13,
+                  "endLine": 690,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 710,
+                  "startColumn": 13,
+                  "endLine": 710,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Nagaraj/Desktop/Hexaware-HotPotProject/HotPotProjectTesting/CustomerTests.cs",
+                "region": {
+                  "startLine": 730,
+                  "startColumn": 13,
+                  "endLine": 730,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Async method lacks 'await' operators and will run synchronously",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8600": {
+          "id": "CS8600",
+          "shortDescription": "Converting null literal or possible null value to non-nullable type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8620": {
+          "id": "CS8620",
+          "shortDescription": "Argument cannot be used for parameter due to differences in the nullability of reference types.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8620)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "NUnit2005": {
+          "id": "NUnit2005",
+          "shortDescription": "Consider using Assert.That(actual, Is.EqualTo(expected)) instead of Assert.AreEqual(expected, actual)",
+          "fullDescription": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual).",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        },
+        "NUnit2016": {
+          "id": "NUnit2016",
+          "shortDescription": "Consider using Assert.That(expr, Is.Null) instead of Assert.Null(expr)",
+          "fullDescription": "Consider using the constraint model, Assert.That(expr, Is.Null), instead of the classic model, Assert.Null(expr).",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2016.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        },
+        "NUnit2018": {
+          "id": "NUnit2018",
+          "shortDescription": "Consider using Assert.That(expr, Is.Not.Null) instead of Assert.NotNull(expr)",
+          "fullDescription": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.NotNull(expr).",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2018.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        },
+        "NUnit2019": {
+          "id": "NUnit2019",
+          "shortDescription": "Consider using Assert.That(expr, Is.Not.Null) instead of Assert.IsNotNull(expr)",
+          "fullDescription": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.IsNotNull(expr).",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2019.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

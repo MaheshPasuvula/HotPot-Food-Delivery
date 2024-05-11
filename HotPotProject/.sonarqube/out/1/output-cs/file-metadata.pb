@@ -1,0 +1,10 @@
+Ö
+zC:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\obj\Debug\net8.0\HotPotProjectTesting.AssemblyInfo.csutf-8m
+dC:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\DeliveryPartnerServicesTests.csutf-8ê
+ÑC:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8
+tC:\Users\Nagaraj\.nuget\packages\microsoft.net.test.sdk\17.6.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8Z
+QC:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\UnitTest1.csutf-8d
+[C:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\RestaurantUserTests.csutf-8á
+|C:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\obj\Debug\net8.0\HotPotProjectTesting.GlobalUsings.g.csutf-8]
+TC:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\GlobalUsings.csutf-8^
+UC:\Users\Nagaraj\Desktop\Hexaware-HotPotProject\HotPotProjectTesting\CustomerTests.csutf-8
